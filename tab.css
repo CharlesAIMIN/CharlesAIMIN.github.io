@@ -1,0 +1,40 @@
+h1 {
+    font-family: 'Changa One', sans-serif;
+    color: #1b8025;
+    font-size: 45px;
+    text-align: center;
+}
+
+body {
+    background-color: darkseagreen;
+}
+
+table {
+    width: 750px;
+    border-collapse: collapse;
+    margin: 50px auto;
+}
+
+/* Rayures zébrées */
+tr:nth-of-type(odd) {
+    background: dimgrey;
+    color: #ffd700;
+}
+
+tr:nth-of-type(even) {
+    background: darkslategrey;
+    color: #ffd700;
+}
+
+th {
+    background: #3498db;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+    font-size: 18px;
+}
